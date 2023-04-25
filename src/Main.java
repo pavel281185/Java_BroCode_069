@@ -18,11 +18,8 @@ public class Main extends JFrame implements MouseListener {
         this.setSize(500, 500);
         this.setLayout(null);
         this.add(label);
-
-
         this.setVisible(true);
     }
-
 
     public static void main(String[] args) {
         new Main();
@@ -50,6 +47,6 @@ public class Main extends JFrame implements MouseListener {
 
     @Override
     public void mouseExited(MouseEvent e) {
-label.setBackground(Color.red);
+        label.setBackground(Color.red);
     }
 }
